@@ -1,12 +1,12 @@
 <template>
   <section>
-    <h2>INDEX</h2>
+    <h2>Two</h2>
   </section>
 </template>
 
 <script>
 export default {
-  name: "Index"
+  name: "Two"
 };
 </script>
 

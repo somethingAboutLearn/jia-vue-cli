@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Index from '@/components/Index'
+import App from '../App'
+
+import Index from '../modules/index'
+import User from '../modules/user'
 
 Vue.use(Router)
 
@@ -8,8 +11,13 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: '首页',
+      name: 'index',
       component: Index
+    },
+    {
+      path: '/user',
+      name: 'user',
+      component: User
     }
   ]
 })
